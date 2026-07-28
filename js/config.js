@@ -13,7 +13,7 @@ const CONFIG = {
     =====================================
     */
 
-    API_URL: "https://kenia-ai-main.onrender.com/",
+   API_URL: "https://kenia-ai-main.onrender.com/chat",
 
     /*
     =====================================
