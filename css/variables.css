@@ -1,0 +1,55 @@
+:root {
+
+    /* Cores ECJ */
+
+    --primary: #0A2F6B;
+    --secondary: #C8F000;
+    --accent: #00B8D9;
+
+    --background: #F6F8FC;
+
+    --white: #FFFFFF;
+
+    --text: #1D2433;
+
+    --text-light: #687280;
+
+    --border: #E5EAF2;
+
+    --success: #00C853;
+
+    --danger: #E53935;
+
+
+
+    /* Sombras */
+
+    --shadow-small: 0 5px 15px rgba(0, 0, 0, .08);
+
+    --shadow-medium: 0 15px 35px rgba(0, 0, 0, .10);
+
+    --shadow-large: 0 30px 60px rgba(0, 0, 0, .15);
+
+
+
+    /* Radius */
+
+    --radius: 16px;
+
+    --radius-large: 24px;
+
+
+
+    /* Fontes */
+
+    --font: 'Poppins', sans-serif;
+
+
+
+    /* Transições */
+
+    --transition: .30s ease;
+
+
+
+}

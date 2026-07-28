@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Kênia IA</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/chat.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<div class="topo">
+
+<img src="imagens/kenia2.png" class="avatar">
+
+<div>
+
+<h1>Kênia IA</h1>
+
+<p>Sua assistente para corrida, alimentação saudável e vida fitness.</p>
+
+</div>
+
+</div>
+
+<div class="header-buttons">
+
+    <button id="btnHome">
+        🏠 Início
+    </button>
+
+    <button id="clearChat">
+        🗑 Limpar conversa
+    </button>
+
+</div>
+
+</header>
+
+<section class="welcome">
+
+<h2>
+
+Olá,
+
+<span id="nomeUsuario">
+
+Atleta
+
+</span>
+
+👋
+
+</h2>
+
+<p>
+
+Como posso ajudar hoje?
+
+</p>
+
+</section>
+
+<section class="atalhos">
+
+<button class="quick">
+
+🏃 Treino
+
+</button>
+
+<button class="quick">
+
+🥗 Alimentação
+
+</button>
+
+<button class="quick">
+
+💧 Água
+
+</button>
+
+<button class="quick">
+
+❤️ FC
+
+</button>
+
+<button class="quick">
+
+🏆 10 km
+
+</button>
+
+</section>
+
+<section id="chatMessages" class="messages">
+
+<div class="message ai">
+
+<img src="imagens/logo.jpg">
+
+<div class="bubble">
+
+<h4>Kênia</h4>
+
+<p>
+
+Olá!
+
+Recebi sua avaliação.
+
+Agora posso ajudar você com treinos,
+alimentação,
+hidratação,
+fortalecimento
+e corrida.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+<div id="typing" class="typing">
+
+    <span></span>
+    <span></span>
+    <span></span>
+
+    Kênia está digitando...
+
+</div>
+
+<footer>
+
+<textarea
+id="prompt"
+placeholder="Digite sua pergunta..."
+rows="2">
+</textarea>
+
+<button id="send">
+
+➜
+
+</button>
+
+
+
+</footer>
+
+</div>
+
+<script src="js/storage.js"></script>
+<script src="js/config.js"></script>
+<script src="js/gemini.js"></script>
+<script src="js/chat.js"></script>
+
+</body>
+</html>
